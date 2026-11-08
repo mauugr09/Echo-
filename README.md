@@ -39,6 +39,11 @@ Abre **http://127.0.0.1:8000/** (debe ser `127.0.0.1`, no `localhost`: Spotify y
 5. Copia el **Client ID** y pégalo en eco. No necesitas el Client Secret: eco usa PKCE y nunca lo pide.
 
 ### 3. Usarlo en el celular (GitHub Pages)
+**Dirección de esta app: https://mauugr09.github.io/Echo-/**
+
+Ábrela siempre exactamente así (con la `/` final). La Redirect URI que pongas en Spotify tiene que coincidir letra por letra; la pantalla de inicio de eco te muestra cuál copiar.
+
+Si vas a hacerlo desde cero en otro repo:
 El celular necesita una dirección `https://`, así que súbelo a GitHub Pages:
 1. Crea un repo (por ejemplo `eco`) y sube `index.html`, `fonts/` y `demo/`.
 2. En *Settings → Pages* elige la rama `main` y la carpeta raíz.
